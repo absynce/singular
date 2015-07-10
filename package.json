@@ -1,0 +1,25 @@
+{
+  "name": "SingulaR",
+  "version": "0.0.0",
+  "description": "Angular 1.4.x Demo App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:absynce/singular.git"
+  },
+  "keywords": [
+    "angular",
+    "ng",
+    "demo",
+    "example"
+  ],
+  "author": "Jared M. Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/absynce/singular/issues"
+  },
+  "homepage": "https://github.com/absynce/singular"
+}
