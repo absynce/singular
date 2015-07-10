@@ -1,3 +1,3 @@
 # SingulaR
 
-A brief introduction to TypeScript, Angular 1.x and 2.
+A brief introduction to Angular 1.x.
