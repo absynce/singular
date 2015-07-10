@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app="singular">
   <head>
     <title>Static Page - SingulaR</title>
     <meta name="author" content="Jared M. Smith" />
@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
   </head>
   <body>
     <div id="container">
-      <div id="content">
+      <div id="content" ng-controller="index">
         <header>
           <h1>
             <span class="title">SingulaR</span>
             <span class="divider">|</span>
-            <span class="subtitle">Static Page</span>
+            <span class="subtitle">{{ title }}</span>
           </h1>
         </header>
         <div id="main">
