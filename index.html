@@ -21,7 +21,18 @@
           </h1>
         </header>
         <div id="main">
-          <p>I <em>still</em> wish there was something moar to this.</p>
+          <div class="profile">
+            <h2>{{ profile.firstName }}</h2>
+            <h3>{{ profile.lastName }}</h3>
+            <dl class="profile-details">
+              <dt><label>Favorite language</label></dt>
+              <dd>{{ profile.favoriteLanguage }}</dd>
+              <dt><label>Favorite framework</label></dt>
+              <dd>{{ profile.favoriteFramework }}</dd>
+              <dt><label>Coding since</label></dt>
+              <dd>{{ profile.codingSince | date:'yyyy' }}</dd>
+            </dl>
+          </div>
         </div>
       </div>
     </div>
