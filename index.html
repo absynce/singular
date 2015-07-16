@@ -31,6 +31,12 @@
               <dd>{{ profile.favoriteFramework }}</dd>
               <dt><label>Coding since</label></dt>
               <dd>{{ profile.codingSince | date:'yyyy' }}</dd>
+              <dt>Languages</dt>
+              <dd>
+                <ul class="languages">
+                  <li ng-repeat="lang in profile.languages" ng-class="{ oddRow: $odd }" >{{ lang }}</li>
+                </ul>
+              </dd>
             </dl>
           </div>
         </div>
