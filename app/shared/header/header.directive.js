@@ -6,6 +6,6 @@ app.directive('snglrHeader', function () {
     scope: {
       title: '='
     },
-    templateUrl: 'app/shared/header/viewHeader.html'
+    templateUrl: 'app/shared/header/header.view.html'
   };
 });
