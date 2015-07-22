@@ -2,24 +2,21 @@
 <html ng-app="singular" ng-controller="index">
   <head>
     <title>{{ title }} - SingulaR</title>
+    <meta charset="utf-8" />
     <meta name="author" content="Jared M. Smith" />
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
-    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="app/app.module.js"></script>
+    <script type="text/javascript" src="app/shared/header/directiveHeader.js"></script>
   </head>
   <body>
     <div id="container">
       <div id="content">
-        <header>
-          <h1>
-            <span class="title">SingulaR</span>
-            <span class="divider">|</span>
-            <span class="subtitle">{{ title }}</span>
-          </h1>
-        </header>
+        <!-- title must be in controller scope for this to work. -->
+        <snglr-header title="title"></snglr-header>
         <div id="main">
           <div class="profile">
             <h2>{{ profile.firstName }}</h2>
