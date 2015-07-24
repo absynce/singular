@@ -1,0 +1,20 @@
+{
+  "name": "SingulaR",
+  "version": "0.0.0",
+  "authors": [
+    "Jared M. Smith <absynce@gmail.com>"
+  ],
+  "description": "Angular 1.4.x Demo App",
+  "main": "app.js",
+  "keywords": [
+    "angular",
+    "ng",
+    "demo",
+    "example"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+  ]
+}
